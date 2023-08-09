@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
@@ -20,22 +21,22 @@
             </div>
             <div class="search">
                 <input type="text" class="form-control search-input" placeholder="Search" />
-                <div className="btn btn-group">
-                    <button className="btn btn-dark type="button">gh</button>
+                <div class="btn btn-group">
+                    <button class="btn btn-dark" type="button">gh</button>
                 </div>
             </div>
             <ul class="films">
-                <li className="list-group-item d-flex justify-content-between favourite">
-                    <span className="list-group-item-label"></span>
-                    <input type="number" className="list-group-item-input" disabled />
-                    <div className="d-flex justify-content-center align-items-center">
-                        <button type="button" className="btn-cookie btn-sm">
-                            <i className="fas fa-cookie">gfdgsdfgdsf</i>
+                <li class="list-group-item d-flex justify-content-between favourite">
+                    <span class="list-group-item-label"></span>
+                    <input type="number" class="list-group-item-input" disabled />
+                    <div class="d-flex justify-content-center align-items-center">
+                        <button type="button" class="btn-cookie btn-sm">
+                            <i class="fas fa-cookie"></i>
                         </button>
-                        <button type="button" className="btn-trash btn-sm">
-                            <i className="fas fa-trash"></i>
+                        <button type="button" class="btn-trash btn-sm">
+                            <i class="fas fa-trash"></i>
                         </button>
-                        <i className="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
                     </div>
                 </li>
             </ul>
