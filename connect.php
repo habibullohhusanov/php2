@@ -1,6 +1,6 @@
 <?php
 
-    $servel = "localhost";
+    $server = "localhost";
     $root = "root";
     $password = "";
     $base = "shaptoli";
