@@ -43,7 +43,7 @@ $sql = "SELECT * FROM `qodirali`";
                                     <button type='button' class='btn-cookie btn-sm'>
                                         <i class='fas fa-cookie'></i>
                                     </button>
-                                    <a href="."delete.php?updateid=" . $row['id'] ." class='btn-trash btn-sm'>
+                                    <a href='delete.php?delete=". $row['id'] ."' class='btn-trash btn-sm'>
                                         <i class='fas fa-trash'></i>
                                     </a>
                                     <i class='fas fa-star'></i>

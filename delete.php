@@ -9,7 +9,7 @@
     $sql = "DELETE FROM `qodirali` WHERE id='$id'";
 
     if (mysqli_query($connect, $sql) === TRUE) {
-        header('location: inde.php');
+        header('location: index.php');
     } else {
         echo "xato";
     }
